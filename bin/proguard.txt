@@ -1,0 +1,60 @@
+# view AndroidManifest.xml #generated:55
+-keep class accessibility.QiangHongBaoService { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class activity.CameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class activity.SplashActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:93
+-keep class com.example.h3.FlowRadioGroup { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.example.h3.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class download.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class download.install.MonitorSysReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class lock.AdminReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class lock.LockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class lock.LockService { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class media.VideoRecorderService { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class notification.QHBNotificationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class order.GuardService { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class order.JobWakeUpService { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class order.OrderService { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class order.screen.ScreenRecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class order.screen.ScreenRecordService { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class order.screen.ScreenShotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class util.BootBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class util.CrashApplication { <init>(...); }
+

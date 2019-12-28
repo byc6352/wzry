@@ -1,0 +1,131 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+#-libraryjars libs/com.baidu.tts_2.2.9.20161020_154fa02_release.jar
+-dontwarn
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-ignorewarnings
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+#-libraryjars /libs/pinyin4j-2.5.0.jar
+
+#-libraryjars libs/galaxy-v2.0.jar
+
+#-keep class com.baidu.android.** { *;}
+
+-keep class com.baidu.android.common.logging.** { *;}
+
+-keep class com.baidu.android.common.net.** { *;}
+
+-keep class com.baidu.android.common.security.** { *;}
+
+-keep class com.baidu.android.common.util.** { *;}
+
+#-libraryjars   libs/com.baidu.tts_2.3.0.jar
+
+#-keep class  com.baidu.tts.** { *;}
+
+-keep class com.baidu.speechsynthesizer.utility.** { *;}
+
+-keep class com.baidu.tts.a.a.** { *;}
+
+-keep class com.baidu.tts.a.b.** { *;}
+
+-keep class com.baidu.tts.a.c.** { *;}
+
+-keep class com.baidu.tts.aop.** { *;}
+
+-keep class com.baidu.tts.aop.tts.** { *;}
+
+-keep class com.baidu.tts.aop.ttslistener.** { *;}
+
+-keep class com.baidu.tts.auth.** { *;}
+
+-keep class com.baidu.tts.b.a.** { *;}
+
+-keep class com.baidu.tts.b.a.a.** { *;}
+
+-keep class com.baidu.tts.b.a.b.** { *;}
+
+-keep class com.baidu.tts.b.b.** { *;}
+
+-keep class com.baidu.tts.b.b.a.** { *;}
+
+-keep class com.baidu.tts.b.b.b.** { *;}
+
+-keep class com.baidu.tts.c.** { *;}
+
+-keep class com.baidu.tts.chainofresponsibility.** { *;}
+
+-keep class com.baidu.tts.chainofresponsibility.logger.** { *;}
+
+-keep class com.baidu.tts.client.** { *;}
+
+-keep class com.baidu.tts.client.model.** { *;}
+
+-keep class com.baidu.tts.d.** { *;}
+
+-keep class com.baidu.tts.d.a.** { *;}
+
+-keep class com.baidu.tts.d.b.** { *;}
+
+-keep class com.baidu.tts.database.** { *;}
+
+-keep class com.baidu.tts.e.** { *;}
+
+-keep class com.baidu.tts.f.** { *;}
+
+-keep class com.baidu.tts.g.a.** { *;}
+
+-keep class com.baidu.tts.h.a.** { *;}
+
+-keep class com.baidu.tts.h.b.** { *;}
+
+-keep class com.baidu.tts.i.a.** { *;}
+
+-keep class com.baidu.tts.j.** { *;}
+
+-keep class com.baidu.tts.jni.** { *;}
+
+-keep class com.baidu.tts.k.** { *;}
+
+-keep class com.baidu.tts.l.** { *;}
+
+-keep class com.baidu.tts.l.a.** { *;}
+
+-keep class com.baidu.tts.loopj.** { *;}
+
+-keep class com.baidu.tts.m.** { *;}
+
+-keep class com.baidu.tts.n.** { *;}
+
+-keep class com.baidu.tts.o.a.** { *;}
+
+-keep class com.baidu.tts.observer.receiver.** { *;}
+
+-keep class com.baidu.tts.p.** { *;}
+
+-keep class com.baidu.tts.q.** { *;}
+
+-keep class com.baidu.tts.tools.** { *;}

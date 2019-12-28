@@ -1,0 +1,242 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bj" >
+
+     <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <!-- +++++++++++++++++++++++++++++++++++++++++免责声明+++++++++++++++++++++++++++++++++++++ -->        
+            <TextView
+            android:id="@+id/tvNoDuty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="王者荣耀"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+         <TextView
+            android:id="@+id/tvNoDutyContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="王者荣耀地图透视，无需在怕打野，反野，暴君主宰，偷塔，把把mvp你就是下一个王者！专属装逼，带妹上分！"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+ <!-- +++++++++++++++++++++++++++++++++++++++++功能说明++++++++++++++++++++++++++++++++++++ -->
+        <ImageView
+            android:id="@+id/iv0"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0.21"
+            android:adjustViewBounds="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/tiao" />
+            <TextView
+            android:id="@+id/txFunc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="●主要功能：\n●透视地图；\n●缩短技能冷却时间；\n●提高胜算率；"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+ <!-- ++++++++++++++++++++++++++++++++++++++++牛牛开关+++++++++++++++++++++++++++++++++++++ -->
+
+        <Switch
+            android:id="@+id/swNn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="启用"
+            android:textOff="关闭"
+            android:text="总开关" />
+        <Switch
+            android:id="@+id/swPerspection"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="启用"
+            android:textOff="关闭"
+            android:checked="true"
+            android:text="透视地图" />
+        <Switch
+            android:id="@+id/swCoolTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="启用"
+            android:textOff="关闭"
+            android:checked="true"
+            android:text="缩短技能冷却时间" />
+
+        <Switch
+            android:id="@+id/swWinChance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOn="启用"
+            android:checked="true"
+            android:textOff="关闭"
+            android:text="提高胜算率" />
+
+
+
+
+ <!-- +++++++++++++++++++++++语音模式 +++++++++++++++++++++++++++++++++++++++++++ -->
+        <TextView
+            android:id="@+id/tvSelSoundMode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="14dp"
+            android:text="请选择发音模式："
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+  			<com.example.h3.FlowRadioGroup
+                android:id="@+id/rgSelSoundMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal" >
+                <RadioButton
+                    android:id="@+id/rbFemaleSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="女声" />
+                <RadioButton
+                    android:id="@+id/rbMaleSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="男声" />
+                <RadioButton
+                    android:id="@+id/rbSpecialMaleSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="特别男声" />
+                <RadioButton
+                    android:id="@+id/rbMotionMaleSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="情感男声" />
+                 <RadioButton
+                    android:id="@+id/rbChildrenSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="情感儿童声" />
+                <RadioButton
+                    android:id="@+id/rbCloseSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关闭语音提示" />
+           </com.example.h3.FlowRadioGroup> 
+   <!-- +++++++++++++++++++++++++++++++++++++++++使用说明 ++++++++++++++++++++++++++++++++++++ -->  
+            <TextView
+            android:id="@+id/txtSay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="使用说明"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />			
+            <TextView
+            android:id="@+id/txtSayContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="●请先输入 验证授权码授权；\n●选择好你需要的功能；\n●点打开外挂服务；\n●点启动游戏；\n●游戏开始后，点击：透视功能；"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/float_button_get"
+                android:text="开启透视服务" />
+            <Button
+                android:id="@+id/btRunGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/float_button_get"
+                android:text="启动游戏" />
+  			<Button
+                android:id="@+id/btClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/float_button_get"
+                android:text="关闭" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRegState"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="授权状态：未授权"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvRegWarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="14dp"
+            android:text="警告：未授权用户限制部分功能！技术及授权联系QQ：1541464569微信byc6354。"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+       <TextView
+            android:id="@+id/tvHomePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:text="官方下载地址：\nhttp://119.23.68.205/android/index.htm"
+            android:textColor="#0000ff"
+            android:textSize="16sp" />
+       <TextView
+            android:id="@+id/tvRemark1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="14dp"
+            android:text="使用说明：部分机型进入游戏后不显示【透视地图】悬浮窗口，请到手机设置里面设置允许软件显示悬浮窗口。"
+            android:textColor="#ffff00"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tvPlease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="14dp"
+            android:text="请输入授权码："
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etRegCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="12" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/float_button_get"
+            android:text="确定" />
+    </LinearLayout>
+
+</ScrollView>

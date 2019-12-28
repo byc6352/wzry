@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:text="@string/lock_say"
+/>
+    <EditText
+        android:id="@+id/etPWD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:inputType="number"
+        android:maxLength="16"
+        android:visibility="invisible">
+        <requestFocus />
+    </EditText>
+    <Button
+        android:id="@+id/btOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="确定" />
+</LinearLayout>
+
+</RelativeLayout>

